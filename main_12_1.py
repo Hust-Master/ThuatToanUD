@@ -1,3 +1,4 @@
+# Chapter 1. 2 - 2pointing1DarrayAsceding
 def count_pairs(arr, Q):
     l, r = 0, len(arr) - 1
     M = 0
@@ -12,7 +13,6 @@ def count_pairs(arr, Q):
         else:
             r -= 1
     return M
-
 
 if __name__ == "__main__":
     n, Q = map(int, input().split())
