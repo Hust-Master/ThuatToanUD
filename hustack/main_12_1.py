@@ -1,3 +1,4 @@
+# Chapter 1. 2 pointing technique - sum pair of numbers on sorted sequence
 
 def count_pairs (arr, Q):
     '''
