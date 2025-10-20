@@ -21,4 +21,4 @@ def count_pairs (arr, Q):
 if __name__ == "__main__":
     n, Q = map(int, input().split())
     arr = list(map(int, input().split()))
-    print("total pairs:", count_pairs(arr, Q))
+    print(count_pairs(arr, Q))

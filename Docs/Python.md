@@ -192,3 +192,14 @@ print("Hai số nguyên vừa nhập:", a, b)
 arr = list(map(int, input("Nhập một mảng số nguyên: ").split()))
 print("Mảng vừa nhập là:", arr)
 ```
+
+## Other
+```python
+# Vô cực âm
+float('-inf')
+
+# Vô cực dương
+float('int')
+
+# Một số trường hợp khác dùng -10**9 hoặc 10**9 thay cho vô cực âm hoặc vô cực dương
+```
