@@ -35,7 +35,7 @@ Pending
 ## 🔹 Backtracking (Thuật toán quay lui) 
 Dùng cho các bài toán liệt kê tổ hợp và tối ưu tổ hợp
 - [Chapter 2. Binary sequence generation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/BINARY_GEN_WITHOUT_CONSECUTIVE_11): liệt kê tổ hợp các chuỗi nhị phân
-- [Chapter 2. Permutation generation](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/PERMUTATION_GEN)
+- [Chapter 2. Permutation generation](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/PERMUTATION_GEN): liệt kê tất cả các hoán vị theo thứ tự. [Chi tiết](./docs/permutation_generation.md)
 - [Chapter 2. Permutation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/Midterm_20222-DSAL_1)
 - Cây liệt kê hoán vị của {1,2,3} - Hoán vị của {1,2,3} là tất cả các cách sắp xếp 3 phần tử theo thứ tự
 
@@ -53,3 +53,6 @@ Mỗi lời giải có nhiều thành phần và mỗi thành phần bị giới
 - [Chapter 3. Money exchange](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/moneyexchange): Bài toán đổi tiền 
 - [Chapter 3. Disjoint Segment](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/DISJOINT_SEGMENT): Bài toán các đoạn thẳng không giao nhau
 
+
+## Other
+- [Học nhanh python](./docs/python.md)

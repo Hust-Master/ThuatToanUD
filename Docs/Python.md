@@ -62,6 +62,8 @@ print(len(arr))      # độ dài
 print(arr[1:3])      # slicing [start:end)
 ```
 
+TODO: Còn pop, push ???
+
 ## 🔹 Dict - Tương tự Dictionary<TKey, TValue>
 ```python
 d = {"a": 1, "b": 2}
@@ -152,6 +154,8 @@ q.append(1)
 q.append(2)
 print(q.popleft())  # 1
 ```
+
+TODO: Cần thêm ví dụ
 
 ## 🔹 Hàm bậc cao: sort, max, filter, map, lambda
 
