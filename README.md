@@ -35,13 +35,12 @@ Pending
 ## 🔹 Backtracking (Thuật toán quay lui) 
 Dùng cho các bài toán liệt kê tổ hợp và tối ưu tổ hợp
 - [Chapter 2. Binary sequence generation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/BINARY_GEN_WITHOUT_CONSECUTIVE_11): liệt kê tổ hợp các chuỗi nhị phân
-- [Chapter 2. Permutation generation](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/PERMUTATION_GEN): liệt kê tất cả các hoán vị theo thứ tự. [Chi tiết](./docs/permutation_generation.md)
-- [Chapter 2. Permutation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/Midterm_20222-DSAL_1)
-- Cây liệt kê hoán vị của {1,2,3} - Hoán vị của {1,2,3} là tất cả các cách sắp xếp 3 phần tử theo thứ tự
+- [Chapter 2. Permutation generation](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/PERMUTATION_GEN): liệt kê tất cả các hoán vị theo thứ tự. [-> Chi tiết](./docs/permutation_generation.md)
+- [Chapter 2. Permutation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/Midterm_20222-DSAL_1): liệt kê tất cả các hoán vị theo thứ tự, có điều kiện lọc đầu ra [-> Chi tiết](./docs/permutation_generation_with_condition.md) 
 
 ## 🔹 Brand and bound (Thuật toán nhánh cận)
 Dùng cho các bài toán tối ưu tổ hợp
-- [Chapter 2. TSP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/TSP): Bài toán người du lịch
+- [Chapter 2. TSP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/TSP): Bài toán người du lịch [-> Chi tiết](./docs/tsp.md)
 - [Chapter 2. CBUS](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/CBUS): Bài toán "The bus routing problem"
 - [Chapter 2. Count solutions CVRP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/countcvrp): Delivery truck routing problem
 

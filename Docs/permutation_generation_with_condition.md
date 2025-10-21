@@ -21,14 +21,15 @@ Output: Number of perfect permutations including n elements created from the set
 
 
 ## Tham khảo
-[Leetcode - 526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)
+- [Leetcode - 526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)  
+- [ChatGPT](https://chatgpt.com/c/68f70ee7-3df8-8321-92fd-df5ca86db3d3)
 
 
 ## 🌳 Backtracking
 
 <center>
 
-![Permutation generation - Backtracking](./image/permutation_generation_with_condition_backtracking.png)
+![Permutation generation - Backtracking](./image/permutation_generation_with_condition_backtracking.png)  
 [Leetcode - 526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)
 </center>
 

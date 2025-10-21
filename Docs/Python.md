@@ -209,3 +209,77 @@ float('int')
 ```
 
 TODO: bitmask
+
+
+## 🔹 Lưu ý về nonlocal đối với biến mutable và immutable
+
+Ngoài nonlocal, còn có global
+
+| **Loại dữ liệu**          | **Ví dụ**             | **Hành động**       | **Có cần `nonlocal` không?**    | **Giải thích**                                |
+| ------------------------- | --------------------- | ------------------- | ------------------------------- | --------------------------------------------- |
+| `int`                     | `count = 0`           | `count += 1`        | ✅ Cần                           | `int` là immutable → tạo biến mới khi gán lại |
+| `float`                   | `total = 1.5`         | `total = total / 2` | ✅ Cần                           | immutable                                     |
+| `str`                     | `s = "abc"`           | `s += "x"`          | ✅ Cần                           | immutable                                     |
+| `bool`                    | `flag = False`        | `flag = not flag`   | ✅ Cần                           | immutable                                     |
+| `tuple`                   | `t = (1,2)`           | `t = t + (3,)`      | ✅ Cần                           | immutable                                     |
+| `None`                    | `x = None`            | `x = some_func()`   | ✅ Cần                           | immutable                                     |
+| `list`                    | `arr = [1,2,3]`       | `arr[0] = 99`       | ❌ Không                         | Thay đổi nội dung, không gán lại biến         |
+| 〃                         | `arr.append(4)`       | ❌ Không             | mutable                         |                                               |
+| 〃                         | `arr = [5,6,7]`       | ✅ Cần               | Gán lại biến list mới           |                                               |
+| `dict`                    | `d = {'a':1}`         | `d['b'] = 2`        | ❌ Không                         | mutable                                       |
+| 〃                         | `d = {'x':10}`        | ✅ Cần               | Gán lại biến dict mới           |                                               |
+| `set`                     | `s = {1,2}`           | `s.add(3)`          | ❌ Không                         | mutable                                       |
+| 〃                         | `s = {4,5}`           | ✅ Cần               | Gán lại biến set mới            |                                               |
+| `object` (class instance) | `obj = Person()`      | `obj.age = 30`      | ❌ Không                         | Chỉ thay đổi thuộc tính                       |
+| 〃                         | `obj = OtherPerson()` | ✅ Cần               | Gán lại biến sang instance khác |                                               |
+| `function`                | `f = lambda x: x+1`   | `f = other_func`    | ✅ Cần                           | immutable reference                           |
+
+### Tổng quát
+- ✅ CẦN nonlocal nếu:
+    - Bạn gán lại toàn bộ biến trong hàm con: x = ..., x += ..., x = x + ..., x = func()
+    - Biến đó được khai báo trong hàm cha, không phải toàn cục.
+- ❌ KHÔNG cần nonlocal nếu:
+    - Bạn chỉ thay đổi nội dung bên trong đối tượng (list, dict, set, object).
+    - Ví dụ: x.append(), x.pop(), x[0] = ..., x['key'] = ...
+
+Ví dụ 1
+```python
+def outer():
+    count = 0
+    def inner():
+        nonlocal count
+        count += 1
+    inner()
+    print(count)
+```
+
+Output
+```
+1
+```
+
+Ví dụ 2
+```python
+def outer():
+    lst = [1, 2, 3]
+    count = 0
+
+    def inner():
+        # không cần nonlocal
+        lst[0] = 99    # thay đổi nội dung
+        lst.append(4)
+
+        # cần nonlocal
+        nonlocal count
+        count += 1
+
+    inner()
+    print(lst, count)
+
+outer()
+```
+
+Output
+```
+[99, 2, 3, 4] 1
+```

@@ -13,7 +13,7 @@ Given an integer n, write a program to generate all permutations of 1, 2, ..., n
     3 1 2  
     3 2 1  
 
-## 🌳 1. Backtracking
+## 1️⃣ Backtracking
 [permutation_generation.py](../src/permutation_generation.py)  
 [Neetcode - Youtube](https://www.youtube.com/watch?v=s7AvT7cGdSo)  
 [Leetcode - 46. Permutations](https://leetcode.com/problems/permutations/solutions/993970/python-4-approaches-visuals-time-complexity-analysis/)  
@@ -41,7 +41,7 @@ Vì ta duyệt số theo thứ tự tăng dần từ 1 → n, nên kết quả s
 - Space: O(n)
 
 
-## 2. Iterative
+## 2️⃣ Iterative
 [permutation_generation_v2.py](../src/permutation_generation_v2.py)
 ### Phân tích
 - Tập {1, 2, …, n} có tổng cộng n! hoán vị.
@@ -58,7 +58,7 @@ Vì ta duyệt số theo thứ tự tăng dần từ 1 → n, nên kết quả s
 - Space: O(n)
 
 
-## 3. Dùng itertools.permutations của python
+## 3️⃣ Dùng itertools.permutations của python
 [permutation_generation_v3.py](../src/permutation_generation_v3.py)  
 Viết bằng C, tối ưu vòng lặp và hạn chế overhead của Python.
 ### Phân tích
