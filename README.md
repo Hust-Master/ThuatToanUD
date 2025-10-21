@@ -46,7 +46,7 @@ Dùng cho các bài toán tối ưu tổ hợp
 - [Chapter 2. Count solutions CVRP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/countcvrp): Delivery truck routing problem
 
 
-## 🔹 Thuật toán tham lam
+## 🔹 Greedy (Thuật toán tham lam)
 Dùng cho các bài toán cần tìm lời giải tối ưu. 
 Mỗi lời giải có nhiều thành phần và mỗi thành phần bị giới hạn
 

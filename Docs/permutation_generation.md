@@ -13,8 +13,11 @@ Given an integer n, write a program to generate all permutations of 1, 2, ..., n
     3 1 2  
     3 2 1  
 
-## 1. Backtracking
+## 🌳 1. Backtracking
 [permutation_generation.py](../src/permutation_generation.py)  
+[Neetcode - Youtube](https://www.youtube.com/watch?v=s7AvT7cGdSo)  
+[Leetcode - 46. Permutations](https://leetcode.com/problems/permutations/solutions/993970/python-4-approaches-visuals-time-complexity-analysis/)  
+Giải thích: [ChatGPT](https://chatgpt.com/c/68f5bc49-7104-8321-a641-09c42ce0a006)  
 
 <center>
 
@@ -33,7 +36,7 @@ Given an integer n, write a program to generate all permutations of 1, 2, ..., n
 
 Vì ta duyệt số theo thứ tự tăng dần từ 1 → n, nên kết quả sinh ra tự nhiên theo thứ tự từ điển. 
 
-### Complexity:
+### ⏱️ Complexity:
 - Time: O(n!)
 - Space: O(n)
 
@@ -50,7 +53,7 @@ Vì ta duyệt số theo thứ tự tăng dần từ 1 → n, nên kết quả s
     {1,2,3} < {1,3,2} vì ở vị trí thứ 2: 2 < 3.
     {2,1,3} < {2,3,1} vì ở vị trí thứ 2: 1 < 3.
 
-### Complexity
+### ⏱️ Complexity
 - Time: O(n!)
 - Space: O(n)
 
@@ -68,6 +71,6 @@ Viết bằng C, tối ưu vòng lặp và hạn chế overhead của Python.
     {1,2,3} < {1,3,2} vì ở vị trí thứ 2: 2 < 3.
     {2,1,3} < {2,3,1} vì ở vị trí thứ 2: 1 < 3.
 
-### Complexity
+### ⏱️ Complexity
 - Time: O(n!)
 - Space: O(n)

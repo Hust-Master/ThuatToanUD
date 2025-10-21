@@ -207,3 +207,5 @@ float('int')
 
 # Một số trường hợp khác dùng -10**9 hoặc 10**9 thay cho vô cực âm hoặc vô cực dương
 ```
+
+TODO: bitmask
