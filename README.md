@@ -38,10 +38,10 @@ Dùng cho các bài toán liệt kê tổ hợp và tối ưu tổ hợp
 - [Chapter 2. Permutation generation](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/PERMUTATION_GEN): liệt kê tất cả các hoán vị theo thứ tự. [-> Chi tiết](./docs/permutation_generation.md)
 - [Chapter 2. Permutation with condition](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/Midterm_20222-DSAL_1): liệt kê tất cả các hoán vị theo thứ tự, có điều kiện lọc đầu ra [-> Chi tiết](./docs/permutation_generation_with_condition.md) 
 
-## 🔹 Brand and bound (Thuật toán nhánh cận)
+## 🔹 Brand and bound (Kỹ thuật nhánh và cận)
 Dùng cho các bài toán tối ưu tổ hợp
 - [Chapter 2. TSP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/TSP): Bài toán người du lịch [-> Chi tiết](./docs/tsp.md)
-- [Chapter 2. CBUS](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/CBUS): Bài toán "The bus routing problem"
+- [Chapter 2. CBUS](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/CBUS): Bài toán "The bus routing problem" [-> Chi tiết](./src/cbus_brand_bound.py)
 - [Chapter 2. Count solutions CVRP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/countcvrp): Delivery truck routing problem
 
 
