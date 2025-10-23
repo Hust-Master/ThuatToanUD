@@ -218,6 +218,9 @@ print(*kq)  # 4, 0, 1, 3, 2
 # Khi print() nhận nhiều đối số, mặc định sẽ:
 # - in cách nhau bằng dấu cách
 # - không có ngoặc vuông, không có dấu phẩy
+
+# tuple
+xxx = [tuple(map(int, input().split())) for _ in range(n)]
 ```
 
 TODO: bitmask
