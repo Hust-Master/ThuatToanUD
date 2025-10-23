@@ -42,7 +42,7 @@ Dùng cho các bài toán liệt kê tổ hợp và tối ưu tổ hợp
 Dùng cho các bài toán tối ưu tổ hợp
 - [Chapter 2. TSP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/TSP): Bài toán người du lịch [-> Chi tiết](./docs/tsp.md)
 - [Chapter 2. CBUS](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/CBUS): Bài toán "The bus routing problem" [-> Chi tiết](./src/cbus_brand_bound.py)
-- [Chapter 2. Count solutions CVRP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/countcvrp): Delivery truck routing problem
+- [Chapter 2. Count solutions CVRP](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/countcvrp): Delivery truck routing problem [-> Chi tiết](./docs/cvrp.md)
 
 
 ## 🔹 Greedy (Thuật toán tham lam)
