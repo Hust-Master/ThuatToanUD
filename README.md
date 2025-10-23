@@ -46,10 +46,18 @@ Dùng cho các bài toán tối ưu tổ hợp
 
 
 ## 🔹 Greedy (Thuật toán tham lam)
-Dùng cho các bài toán cần tìm lời giải tối ưu. 
-Mỗi lời giải có nhiều thành phần và mỗi thành phần bị giới hạn
+Dùng cho các bài toán cần tìm lời giải tối ưu. Mỗi lời giải có nhiều thành phần và mỗi thành phần bị giới hạn
 
-- [Chapter 3. Money exchange](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/moneyexchange): Bài toán đổi tiền 
+Vì sao gọi là "tham lam"?. Từ “tham lam” (greedy) ở đây là một ẩn dụ cho cách ra quyết định:
+- Ở mỗi bước, thuật toán chỉ quan tâm đến lợi ích tốt nhất ngay trước mắt, mà không suy nghĩ xa hay kiểm tra hậu quả toàn cục sau này.
+
+Nói cách khác:
+- Nó “tham lam” với giá trị hiện tại,
+- Không quan tâm tương lai,
+- Không quay lại để sửa nếu sai.
+
+Ví dụ:
+- [Chapter 3. Money exchange](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/moneyexchange): Bài toán đổi tiền [-> Chi tiết](./docs/money_exchange.md)
 - [Chapter 3. Disjoint Segment](https://hustack.soict.ai/programming-contest/student-view-contest-problem-detail/20251ttudchbs/DISJOINT_SEGMENT): Bài toán các đoạn thẳng không giao nhau
 
 

@@ -206,6 +206,18 @@ float('-inf')
 float('int')
 
 # Một số trường hợp khác dùng -10**9 hoặc 10**9 thay cho vô cực âm hoặc vô cực dương
+
+# Đảo ngược một list
+ket_qua = [1,2,3,4,5]
+ket_qua[::-1]           # ket_qua = [5,4,3,2,1]
+
+# unpacking operator
+kq = [4, 0, 1, 3, 2]
+print(kq)   # [4, 0, 1, 3, 2]
+print(*kq)  # 4, 0, 1, 3, 2
+# Khi print() nhận nhiều đối số, mặc định sẽ:
+# - in cách nhau bằng dấu cách
+# - không có ngoặc vuông, không có dấu phẩy
 ```
 
 TODO: bitmask
